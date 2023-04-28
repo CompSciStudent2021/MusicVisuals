@@ -7,15 +7,15 @@ package ie.tudublin;
 public class Main
 {	
 
-	public static void Scene1()
+	public static void Audio1()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Scene1());		
+        processing.core.PApplet.runSketch( a, new Audio1());		
 	}
 
 	public static void main(String[] args)
 	{
 		System.out.println("Hello world!");
-		Scene1();		
+		Audio1();		
 	}
 }
