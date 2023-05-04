@@ -13,7 +13,6 @@ public class Deyor {
     float c = 0;
     float c2 = 0;
     float speed = 0;
-    float smallPyramidDist = 1.8f;
 
     // Draw cube
     void drawCube(float cubeSpeed, Player p) {
@@ -45,14 +44,6 @@ public class Deyor {
         p.rect(p.width - border, 0, border, p.height); // Right
         p.rect(0, p.height - border, p.width, border); // Bottom
         p.rect(0, 0, border, p.height); // Left
-    }
-
-    // Draws circles
-    void drawCircle(float size, Player p) {
-        p.noFill();
-        p.lights();
-        p.circle(0, 0, size + 30);
-        p.triangle(0, 0, 0, 0, 0, 0);
     }
 
     // Draws pyramid
@@ -111,33 +102,17 @@ public class Deyor {
         // Drawing center pyramid
         drawPyramid(size * 2.5f, c2, p);
 
+        // Drawing sphere to rotate around the cube
         p.pushMatrix();
         p.translate(-p.width / 4, p.height / 4);
         p.sphere(size * 2.5f);
         p.popMatrix();
 
+        // Second sphere
         p.pushMatrix();
         p.translate(p.width / 4, -p.height / 4);
         p.sphere(size * 2.5f);
         p.popMatrix();
-
-        /*
-        // Drawing the small pyramids
-        p.translate(150 * smallPyramidDist, 150 * smallPyramidDist);
-        drawPyramid(size, c, p);
-        drawCircle(size, p);
-
-        p.translate(-300 * smallPyramidDist, -300 * smallPyramidDist);
-        drawPyramid(size, c, p);
-        drawCircle(size, p);
-
-        p.translate(300 * smallPyramidDist, 0);
-        drawPyramid(size, c, p);
-        drawCircle(size, p);
-
-        p.translate(-300 * smallPyramidDist, 300 * smallPyramidDist);
-        drawPyramid(size, c, p);
-        drawCircle(size, p);*/
 
         // Drawing the cube
         drawCube(speed, p);
