@@ -15,11 +15,13 @@ Press Ctrl + f5 to debug and start running the code, once the pApplet has opened
 - The main file calls the Player file which calls the music file and acts as a main menu where the viewer can select the various scenes through number inputs.
 
 # What I am most proud of in the assignment
-##Sam
+## Sam
 - I'm most proud of grinding my way through this assignment and learning new things throughout. All this should help me in the exam later on and also for further down the line during internship etc. 
-##Deyor
+
+## Deyor
 - What I'm most proud of is being able to express myself creatively through coding. I am also proud of how well our team worked together and how we overcame obstacles.
-##Ryan
+
+## Ryan
 - I am most proud of the learning done with Java over the course of this assignment. It is a language I particularly struggle with however this was an execellent learning experience for me.
 
 # YouTube
