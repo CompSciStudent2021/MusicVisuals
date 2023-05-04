@@ -60,10 +60,10 @@ public class Player extends Visual {
         getAudioPlayer().setGain(-25);
     }
     
-    RocketShip Ryan = new RocketShip(1024);
+    RotatingPolygon RotatingPolygon = new RotatingPolygon();
+    RocketShip RocketShip = new RocketShip(1024);
     Deyor Deyor = new Deyor();
-    Sam Sam = new Sam(1920);
-    Satellite Satellite = new Satellite(1024);
+
     public Object trailX;
 
     public void draw() {
@@ -72,25 +72,19 @@ public class Player extends Visual {
 
             case 1: // Sam
             {
-                Sam.render(this);
+                ie.tudublin.RotatingPolygon.render(this);
                 break;
             }
 
             case 2: // Ryan
             {
-                RocketShip.render(this);
+                ie.tudublin.RocketShip.render(this);
                 break;
             }
 
             case 3: // Deyor
             {
                 Deyor.render(this);
-                break;
-            }
-
-            case 4: // Combined
-            {
-                Satellite.render(this);
                 break;
             }
         }
