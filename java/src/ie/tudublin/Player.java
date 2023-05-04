@@ -59,11 +59,12 @@ public class Player extends Visual {
 
         getAudioPlayer().setGain(-25);
     }
-
-    Ryan Ryan = new Ryan(1024);
+    
+    RocketShip Ryan = new RocketShip(1024);
     Deyor Deyor = new Deyor();
     Sam Sam = new Sam(1920);
-    Combined Combined = new Combined(1024);
+    Satellite Satellite = new Satellite(1024);
+    public Object trailX;
 
     public void draw() {
 
@@ -77,7 +78,7 @@ public class Player extends Visual {
 
             case 2: // Ryan
             {
-                Ryan.render(this);
+                RocketShip.render(this);
                 break;
             }
 
@@ -89,7 +90,7 @@ public class Player extends Visual {
 
             case 4: // Combined
             {
-                Combined.render(this);
+                Satellite.render(this);
                 break;
             }
         }

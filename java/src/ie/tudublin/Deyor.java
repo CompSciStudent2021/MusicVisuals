@@ -111,6 +111,17 @@ public class Deyor {
         // Drawing center pyramid
         drawPyramid(size * 2.5f, c2, p);
 
+        p.pushMatrix();
+        p.translate(-p.width / 4, p.height / 4);
+        p.sphere(size * 2.5f);
+        p.popMatrix();
+
+        p.pushMatrix();
+        p.translate(p.width / 4, -p.height / 4);
+        p.sphere(size * 2.5f);
+        p.popMatrix();
+
+        /*
         // Drawing the small pyramids
         p.translate(150 * smallPyramidDist, 150 * smallPyramidDist);
         drawPyramid(size, c, p);
@@ -126,7 +137,7 @@ public class Deyor {
 
         p.translate(-300 * smallPyramidDist, 300 * smallPyramidDist);
         drawPyramid(size, c, p);
-        drawCircle(size, p);
+        drawCircle(size, p);*/
 
         // Drawing the cube
         drawCube(speed, p);

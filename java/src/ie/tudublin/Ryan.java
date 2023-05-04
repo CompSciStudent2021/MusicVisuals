@@ -22,6 +22,7 @@ public class Ryan {
         lerpBuff = new float[width];
     }
 
+    /*
     // Method to draw the circle visualiser
     public void drawCircleVisualiser(Player p, float rotateX, float rotateY, float rotateZ, float size, float react,
             float thickness) {
@@ -83,7 +84,7 @@ public class Ryan {
             c.cz = cz;
         }
 
-    }
+    }*/
 
     public void render(Player p) {
         if (randCircles == null) {
