@@ -1,89 +1,28 @@
 # Music Visualiser Project
-
-Name:
-
-Student Number: 
-
-## Instructions
-- Fork this repository and use it a starter project for your assignment
-- Create a new package named your student number and put all your code in this package.
-- You should start by creating a subclass of ie.tudublin.Visual
-- There is an example visualiser called MyVisual in the example package
-- Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
+Name: Sam Reilly - Student Number: C21373633
+Name: Ryan Francis - Student Number: C21730391
+Name: Deyor Abidjanov - Student Number: C21446556
 
 # Description of the assignment
+Our groups Music Visualizer compiles a montage of different visuals all inspired by the song "Borderline" by Tame Impala.
 
 # Instructions
+Press Ctrl + f5 to debug and start running the code, once the pApplet has opened, press 1 to start the song. After this, cycle through 1, 2 and 3 to see the three scenes made for it.
 
 # How it works
+- We started working on this by coming up with our own ideas on a particular theme which was *space*.
+- We each made one file which was one scene and it was all run through a Player file which was then called by the Main to run through the PApplet.
+- The main file calls the Player file which calls the music file and acts as a main menu where the viewer can select the various scenes through number inputs.
 
 # What I am most proud of in the assignment
+## Sam
+- I'm most proud of grinding my way through this assignment and learning new things throughout. All this should help me in the exam later on and also for further down the line during internship etc. 
 
-# Markdown Tutorial
+## Deyor
+- What I'm most proud of is being able to express myself creatively through coding. I am also proud of how well our team worked together and how we overcame obstacles.
 
-This is *emphasis*
+## Ryan
+- I am most proud of the learning done with Java over the course of this assignment. It is a language I particularly struggle with however this was an execellent learning experience for me.
 
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-
+# YouTube
+https://youtu.be/GwOvTIeUt5w

@@ -99,7 +99,7 @@ public class Deyor {
         p.rotateX(theta);
         p.rotateY(theta);
 
-        // Drawing center pyramid
+        // Drawing center pyra1mid
         drawPyramid(size * 2.5f, c2, p);
 
         // Drawing sphere to rotate around the cube
